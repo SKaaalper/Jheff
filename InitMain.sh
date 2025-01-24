@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Display logo (optional)
-curl -s https://raw.githubusercontent.com/SKaaalper/Jheff/main/logo.sh | bash
-sleep 5
+echo "========================================"
+echo "               SKaaalper                "
+echo "========================================"
+sleep 2
 
 # URL to download the miner file
 INIMINER_URL="https://github.com/Project-InitVerse/ini-miner/releases/download/v1.0.0/iniminer-linux-x64"
